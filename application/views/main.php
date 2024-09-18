@@ -153,7 +153,7 @@
         <div class="row d-flex justify-content-center align-items-center pt-4">
             <div class="col-md-8 text-center">
                 <p class="">Built with the latest technology, our platform is designed to be both powerful and easy to
-                    use, ensuring you can focus on what matters most – your patients.</p>
+                    use, ensuring you can focus on what matters most – <span class="gradient"> your patients.</span></p>
             </div>
         </div>
 
@@ -304,7 +304,7 @@
             <div class="col-md-10 d-flex justify-content-evenly align-items-center">
                 <div class="i1"> <img src="assets/img/p1.png" style="max-width: 100%;" alt=""></div>
                 <div class="i2"><img src="assets/img/p2.png" style="max-width: 100%;" alt=""></div>
-                <div class="i3"><img src="assets/img/p3.png"style="max-width: 100%;"  alt=""></div>
+                <div class="i3"><img src="assets/img/p3.png" style="max-width: 100%;" alt=""></div>
 
 
 
@@ -325,12 +325,46 @@
 
 <!-- download -->
 <section class="noTop">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <img src="assets/img/download.png" alt="" style="max-width:100%;">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+        <div class="img1-container ">
+        <div class="img4">
+            <img src="assets/img/download-banner.png" alt=""  style="max-width:100%;">
+        </div>
+
+        <div class="container">
+            <div class="txt4">
+            <div class="row  pb-3">
+                    <div class="col-md-2 text-left   ">
+                        <a class="join-us"><img src="assets/img/icon4.png" alt="">Application</a>
+                    </div>
+                </div>
+                <div class="row  ">
+                    <div class="col-md-5 text-left">
+                        <p class="t1 gradient">Download the App
+                        Now.</p>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-4 text-left">
+                        <p class="" >Get started with Aesthetic AI today and experience the future
+                            of patient care.</p>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-2 text-center pb-4">
+                        <a class="black" href=" ">Download Now</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+  
+
 </section>
 <!-- download -->
