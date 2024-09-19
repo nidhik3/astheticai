@@ -126,3 +126,19 @@ function startSlider() {
 requestAnimationFrame(startSlider);
 
 </script>
+
+
+<!-- header  -->
+ <script>
+    window.addEventListener('scroll', function() {
+    const header = document.getElementById('header');
+    
+    if (window.scrollY > 50) {  // You can adjust the scroll threshold
+        header.classList.add('with-border');
+    } else {
+        header.classList.remove('with-border');
+    }
+});
+
+ </script>
+<!-- header  -->

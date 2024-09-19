@@ -12,13 +12,13 @@
     }
 
     .slider-item {
-        /* min-width: 8%; */
+        min-width: 17%;
         box-sizing: border-box;
     }
 
     .slider-item img {
         width: 200px;
-        height: 30px;
+        height: 33px;
     }
 
     .slider {
@@ -64,7 +64,7 @@
             <div class="txt3">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-md-6  text-center">
-                        <p class="t1">Fuel your clinic’s success with <span class="gradient"> Intelligent
+                        <p class="t1">Fuel your clinic’s success  with <span class="gradient"> Intelligent
                                 solutions</span> </p>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-md-8 text-center">
+            <div class="col-md-7 text-center">
                 <p class="t1">Designed to fit into <span class="gradient"> your world</span> ,
                     not the other way around.</p>
             </div>
@@ -441,10 +441,6 @@
                 <div class="i1"> <img src="assets/img/p1.png" style="max-width: 100%;" alt=""></div>
                 <div class="i2"><img src="assets/img/p2.png" style="max-width: 100%;" alt=""></div>
                 <div class="i3"><img src="assets/img/p3.png" style="max-width: 100%;" alt=""></div>
-
-
-
-
             </div>
         </div>
 

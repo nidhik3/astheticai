@@ -190,8 +190,8 @@ a:hover {
 }
 
 .white-btn img {
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 22px;
 }
 .download {
     height: 7vh;
@@ -291,7 +291,7 @@ a:hover {
     padding: 5px 15px;
     font-size: 13px;
     border-radius: 20px;
-	width: 112px;
+	width: 115px;
 }
 
 .gradient{
@@ -542,12 +542,16 @@ height: 65vh;
 	background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
     backdrop-filter: blur(10px); /* Blur effect */
     -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Optional: Add a subtle border */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
 	transition: all 0.5s;
 	z-index: 999;
 	padding: 10px 0;
 	
+}
+.with-border {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
 }
 
 #header .logo {
