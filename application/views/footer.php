@@ -1,3 +1,6 @@
+
+
+
 <!-- ======= Footer ======= -->
 
 <footer id="footer">
@@ -57,19 +60,26 @@
         </div>
     </div>
 
-<div class="container">
-<hr>
-</div>
+    <div class="container">
+        <hr>
+    </div>
 
 
     <div class="container py-4 text-center">
         <div class="row d-flex justify-content-between">
-            <div class="col-md-3">
-                <img src="assets/img/flogo.png" alt="" >
+            <div class="col-md-4">
+                <img src="assets/img/flogo.png" alt="" style=" height: 50px;">
             </div>
-            <div class="col-md-8 d-flex align-items-center" >
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
                 <div class="copyright-text">
                     <p> © Designed by The Odin. All Rights Reserved. </p>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center  align-items-center">
+                <div class="social-icons">
+                    <a href="#" class="icon fb"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="icon twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
@@ -92,3 +102,27 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+
+<script>
+    const sliderWrapper = document.querySelector('.slider-wrapper');
+let scrollAmount = 1; // Adjust this value to control speed
+
+function startSlider() {
+    // Move the slider to the left continuously
+    sliderWrapper.style.transform = `translateX(${-scrollAmount}px)`;
+    
+    // Keep increasing the scroll amount for smooth movement
+    scrollAmount += 1; // Adjust for speed, higher value = faster scroll
+
+    // If the scroll amount exceeds the width of one set of images, reset it
+    if (scrollAmount >= sliderWrapper.scrollWidth / 2) {
+        scrollAmount = 0; // Reset to start for infinite scrolling effect
+    }
+
+    requestAnimationFrame(startSlider);
+}
+
+// Initialize the slider
+requestAnimationFrame(startSlider);
+
+</script>

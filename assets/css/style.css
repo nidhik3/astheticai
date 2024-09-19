@@ -12,22 +12,85 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 900 */
 
-.font {
-	font-family: "Playfair Display", serif !important;
-	font-optical-sizing: auto;
+.roboto-thin {
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+  }
+  
+  .roboto-light {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  .roboto-regular {
+	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-style: normal;
   }
-  .ibm-plex-sans-medium {
-	  font-family: "IBM Plex Sans", sans-serif;
-	  font-weight: 500;
-	  font-style: normal;
-	}
-	
   
-  * {
-	  font-family: "Space Grotesk", sans-serif;
+  .roboto-medium {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
   }
+  
+  .roboto-bold {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  .roboto-black {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-style: italic;
+  }
+  
+  .roboto-light-italic {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+  }
+  
+  .roboto-black-italic {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+  }
+  
+  
+  body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
   
   
 
@@ -60,7 +123,7 @@ a:hover {
 }
 
 .black {
-    height: 6vh;
+    height: 7vh;
     background-color: black;
     color: white !important;
 	display: flex !important;
@@ -74,7 +137,7 @@ a:hover {
   
 }
 .transparent{
-    height: 6vh;
+    height: 7vh;
     background-color: transparent;
     color: black;
 	border: 2px solid black;
@@ -89,7 +152,7 @@ a:hover {
   
 }
 .transparent-white{
-    height: 6vh;
+    height: 7vh;
     background-color: transparent;
     color: white;
 	border: 2px solid white;
@@ -103,9 +166,53 @@ a:hover {
     border-radius: 20px;
   
 }
+
+.logos {
+    position: absolute;
+	top: 0%;
+    left: 102%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px; /* Space between the logos */
+}
+
+.white-btn {
+    height: 7vh;
+	width: 120px;
+    background-color: white;
+	/* border: 2px solid red; */
+	display: flex !important;
+	align-items: center !important;
+	justify-content: flex-end !important;
+    padding: 5px 15px;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+.white-btn img {
+    height: 20px;
+    width: 20px;
+}
+.download {
+    height: 7vh;
+    background-color: black;
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center;
+    justify-content: center !important;
+    padding: 5px 15px;
+    font-size: 13px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1; /* Ensure the black button is behind the logos */
+}
+
+
+
 .gradient-border , .gradient-border:hover {
     position: relative;
-    height: 6vh;
+    height: 7vh;
     background-color: transparent;
     color: transparent;
     display: flex !important;
@@ -144,7 +251,7 @@ a:hover {
 
 
 .light-blue{
-    height: 6vh;
+    height: 7vh;
     background-color: #E9F8FF;
     color: black;
 	display: flex !important;
@@ -159,7 +266,7 @@ a:hover {
   
 }
 .join-us{
-    height: 6vh;
+    height: 7vh;
     background-color: rgba(86, 85, 85,0.5);;
     color:white;
 	display: flex !important;
@@ -171,9 +278,22 @@ a:hover {
     font-size: 13px;
     border-radius: 20px;
 	width: 112px;
-	
-  
 }
+.application{
+    height: 7vh;
+    background-color:black;
+    color:white;
+	display: flex !important;
+	align-items: center !important;
+    text-align: center;
+	justify-content: center !important;
+    /* font-weight: 500; */
+    padding: 5px 15px;
+    font-size: 13px;
+    border-radius: 20px;
+	width: 112px;
+}
+
 .gradient{
 	background: linear-gradient(180deg, #13D7A8 0%, #1179C4 100%);
 	-webkit-background-clip: text;
@@ -183,7 +303,7 @@ a:hover {
 }
 
 .gradientb {
-    height: 6vh;
+    height: 7vh;
     background: linear-gradient(90deg, #14D5A9 0%, #1179C4 100%);
     color: white !important;
     display: flex !important;
@@ -239,7 +359,7 @@ a:hover {
     font-weight: 500;
 	padding: 7px 12px 10px 12px;
     font-size: 15px;
-    font-family: Dosis, sans-serif;
+  
     border-radius: 6px;
     display: inline-block;
     position: relative;
@@ -254,6 +374,7 @@ a:hover {
 
 .t1{
 	font-size:45px;
+	line-height: 1;
 }
 
 
@@ -285,7 +406,7 @@ a:hover {
 }
 .txt2 {
     position: absolute; /* Overlay .txt1 on top of .img1 */
-    top: 15%;
+    top: 24%;
     left: 0%;
     width: 100%;
     padding: 20px; /* Add padding as needed */
@@ -294,7 +415,7 @@ a:hover {
 }
 .txt3 {
     position: absolute; /* Overlay .txt1 on top of .img1 */
-    top: 25%;
+    top: 30%;
     left: 0%;
     width: 100%;
     padding: 20px; /* Add padding as needed */
@@ -340,7 +461,7 @@ height: 65vh;
 
 .ci{
 	padding: 10px;
-	height:280px
+	height:300px
 }
 
 .cbody{
@@ -351,6 +472,26 @@ height: 65vh;
 	border: 1px solid transparent;
     background: #f8f9fa;
     border-radius: 20px;
+}
+.ic1{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+.ic2{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+}
+.ic3{
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+}
+.ic4{
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
 }
 
 
@@ -456,7 +597,6 @@ height: 65vh;
 	align-items: center;
 	justify-content: space-evenly;
 	padding: 9px 12px;
-	font-family: "Dosis", sans-serif;
 	font-size: 17px;
 	font-weight: 500;
 	color: #000000;
@@ -798,7 +938,7 @@ section {
 .breadcrumbs h2 {
 	font-size: 28px;
 	font-weight: 400;
-	font-family: "Lato", sans-serif;
+	
 }
 
 .breadcrumbs ol {
@@ -847,7 +987,7 @@ section {
 }
 
 li{
-	font-size: 15px;
+	font-size: 14px;
     color: black !important;
 }
 
@@ -925,16 +1065,19 @@ li{
 	font-size: 14px;
 	line-height: 24px;
 	margin-bottom: 0;
-	font-family: "Lato", sans-serif;
+	
 	color: #777777;
+}
+.copyright-text{
+	font-size: 12px;
 }
 
 #footer .footer-top h4 {
-	font-size: 19px;
+	font-size: 17px;
 	font-weight: bold;
 	/* color: #0f394c; */
 	position: relative;
-	padding-bottom: 12px;
+	padding-bottom: 10px;
 }
 
 #footer .footer-top .footer-links {
@@ -955,7 +1098,7 @@ li{
 }
 
 #footer .footer-top .footer-links ul li {
-	padding: 10px 0;
+	padding: 7px 0;
 	display: flex;
 	align-items: center;
 }
@@ -1007,6 +1150,27 @@ li{
 	font-size: 13px;
 	color: #0f394c;
 }
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	padding: 20px;
+  }
+  
+  .social-icons .icon {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	border: 1px solid black;
+	background-color: transparent;
+	text-align: center;
+	color: black;
+	font-size: 14px;
+	transition: background-color 0.3s ease;
+  }
 
 @media (max-width: 575px) {
 	#footer .copyright,
