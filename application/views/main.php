@@ -278,10 +278,9 @@
 
                         </div>
                     </div>
-
-                    <div class="i1"> <img src="assets/img/m1.png" alt=""></div>
-                    <div class="i2"><img src="assets/img/m2.png" alt=""></div>
-                    <div class="i3"><img src="assets/img/m3.png" alt=""></div>
+                    <div class="i1 pt-5"> <img src="assets/img/p1.png" style="max-width: 100%;" alt=""></div>
+                <div class="i2"><img src="assets/img/p2.png" style="max-width: 100%;" alt=""></div>
+                <div class="i3 pt-5"><img src="assets/img/p3.png" style="max-width: 100%;" alt=""></div>
                 </div>
             </div>
 
