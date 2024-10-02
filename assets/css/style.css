@@ -460,6 +460,8 @@ background-color: #F6F8F9;
 width: 18rem;
 height: 65vh;
 border: 1px solid transparent;
+border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 .card-text1{
 	margin: 0;
