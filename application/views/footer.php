@@ -45,11 +45,7 @@
                     <h4>TALK TO US</h4>
                     <ul>
                         <li> <a href="">support@aesthetics.ai</a></li>
-                        <li> <a href="">+00 0000000000</a></li>
-                        <li> <a href="">Contact </a></li>
-                        <li> <a href="">Facebook</a></li>
-                        <li> <a href="">Instagram</a></li>
-                        <li> <a href="">Linkedin</a></li>
+                        <li> <a href="">+91 9876543210</a></li>
                     </ul>
                 </div>
 
@@ -65,7 +61,7 @@
     </div>
 
 
-    <div class="container py-4 text-center">
+    <div class="container py-3 text-center">
         <div class="row d-flex justify-content-between">
             <div class="col-md-4">
                 <img src="assets/img/flogo.png" alt="" style=" height: 50px;">
@@ -142,3 +138,16 @@ requestAnimationFrame(startSlider);
 
  </script>
 <!-- header  -->
+
+<!-- pricing btn -->
+ <script>
+    
+    document.querySelectorAll('.toggle-option').forEach(option => {
+  option.addEventListener('click', function() {
+    document.querySelectorAll('.toggle-option').forEach(btn => btn.classList.remove('active'));
+    this.classList.add('active');
+  });
+});
+
+ </script>
+<!-- pricing btn -->

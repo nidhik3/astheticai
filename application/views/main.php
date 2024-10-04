@@ -12,13 +12,13 @@
     }
 
     .slider-item {
-        min-width: 17%;
+        /* min-width: 17%; */
         box-sizing: border-box;
     }
 
     .slider-item img {
-        width: 200px;
-        height: 33px;
+        /* width: 200px;
+        height: 33px; */
     }
 
     .slider {
@@ -431,10 +431,14 @@
         </div>
 
         <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-md-12 text-center">
-                <img src="assets/img/pricing-btn.png" alt="">
+            <div class="toggle-container">
+                <div class="toggle-btn ">
+                    <div class="toggle-option active d-flex align-items-center justify-content-center" id="monthly">Monthly</div>
+                    <div class="toggle-option d-flex align-items-center  justify-content-center" id="yearly">Yearly</div>
+                </div>
             </div>
         </div>
+        
         <div class="row d-flex justify-content-evenly  ">
             <div class="col-md-10 d-flex justify-content-evenly align-items-center">
                 <div class="i1"> <img src="assets/img/p1.png" style="max-width: 100%;" alt=""></div>

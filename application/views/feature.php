@@ -1,3 +1,9 @@
+<style>
+  
+    .card1{
+       height:70vh;
+    }
+</style>
 <section class="space" style="background-image: url('assets/img/bg.png'); max-width: 100%; background-repeat: no-repeat;">
     <div class="container">
         <div class="row d-flex justify-content-center align-items-center  pb-3">
@@ -19,8 +25,8 @@
         <div class="row d-flex justify-content-evenly pt-3">
             <div class="col-md-2">
                 <div class="card  card1">
-                    <img class="card-img-top" src="assets/img/card-bg.png" alt="Card image cap">
-                    <div class="card-body">
+                    <img class="card-img-top" src="assets/img/f1.png" alt="Card image cap">
+                    <div class="card-bodys">
                         <p class="card-text"><b>White Label Solution:</b> </p>
                         <p class="card-text">Customizable branding options for dentists and
                             dermatologists. Each doctor gets their own android, iPhone and website with their branding.</p>
@@ -29,8 +35,8 @@
             </div>
             <div class="col-md-2">
                 <div class="card  card1" >
-                    <img class="card-img-top" src="assets/img/card-bg.png" alt="Card image cap">
-                    <div class="card-body">
+                    <img class="card-img-top" src="assets/img/f2.png" alt="Card image cap">
+                    <div class="card-bodys">
                         <p class="card-text"><b>Appointment Scheduling and Confirmation: </b> </p>
                         <p class="card-text">Automated and manual scheduling options.
                         Confirm appointments with patients via various channels.</p>
@@ -39,8 +45,8 @@
             </div>
             <div class="col-md-2">
                 <div class="card  card1" >
-                    <img class="card-img-top" src="assets/img/card-bg.png" alt="Card image cap">
-                    <div class="card-body">
+                    <img class="card-img-top" src="assets/img/f3.png" alt="Card image cap">
+                    <div class="card-bodys">
                         <p class="card-text"><b>Virtual Consultations:</b> </p>
                         <p class="card-text">Secure video consultations with patients.</p>
                     </div>
