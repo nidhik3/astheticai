@@ -61,7 +61,7 @@
 <section>
     <div class="img1-container">
         <div class="img1">
-            <img src="assets/img/ready.png" alt="" style="max-width: 100%;">
+            <img src="assets/img/ready.png" alt="">
         </div>
 
         <div class="container">
@@ -72,17 +72,18 @@
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center align-items-center ">
-                    <div class="col-md-5 text-center">
+                    <div class="col-md-6 text-center">
                         <p class="t1 gradient">Ready to Revolutionize Your Practice?</p>
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center align-items-center pb-4">
                     <div class="col-md-4 text-center">
-                        <p class="" style="color: white;">Get started with Aesthetic AI today and experience the future of patient care.</p>
+                        <p class="" style="color: white;">Get started with Aesthetic AI today and experience the future
+                            of patient care.</p>
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center align-items-center ">
-                    <div class="col-md-2 text-center">
+                    <div class="col-md-2 col-6 text-center">
                         <a class="transparent-white" href=" ">Request a Demo</a>
                     </div>
                 </div>

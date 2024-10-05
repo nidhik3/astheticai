@@ -34,7 +34,7 @@
 
 
         <div class="row pt-3  d-flex justify-content-center align-items-center">
-            <div class="col-md-2 text-center">
+            <div class="col-md-2 col-6 text-center">
                 <a class="black" href=" ">Send Message</a>
             </div>
         </div>

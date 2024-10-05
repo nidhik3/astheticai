@@ -53,7 +53,7 @@
 <section>
     <div class="container py-5">
         <div class="row d-flex justify-content-center pt-3">
-            <div class="col-md-3">
+            <div class="col-md-3 col-7">
                 <img src="assets/img/about-logo.png" alt="">
             </div>
 

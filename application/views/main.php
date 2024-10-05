@@ -64,7 +64,7 @@
             <div class="txt3">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-md-6  text-center">
-                        <p class="t1">Fuel your clinic’s success  with <span class="gradient"> Intelligent
+                        <p class="t1">Fuel your clinic’s success with <span class="gradient"> Intelligent
                                 solutions</span> </p>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
 
 <!--elevate -->
 <section class="noBottom">
-    <div class="container">
+    <div class="container space-x">
         <div class="row d-flex justify-content-center align-items-center  pb-3">
             <div class="col-md-12 d-flex justify-content-center">
                 <a class="light-blue"><img src="assets/img/icon1.png" alt="">Unique Features</a>
@@ -147,9 +147,9 @@
 
 </section>
 
-<div class="bgimg pt-4" style="background-image: url('assets/img/banner1.png') ;width:100%; background-size: cover;">
-    <div class="container">
-        <div class="row d-flex justify-content-evenly">
+<div class="bgimg  pt-0 pt-md-5" style="background-image: url('assets/img/banner1.png') ;width:100%; background-size: cover;">
+    <div class="container space-x">
+        <div class="row d-flex justify-content-evenly ">
             <div class="col-md-5">
                 <div class="card card2 ">
                     <div class="card-body cbody pb-3">
@@ -161,7 +161,7 @@
 
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 pt-3 pt-md-0">
                 <div class="card card2 ">
                     <div class="card-body cbody pb-3">
                         <h5 class="card-title">Tailored for Dermatologists & Dentists</h5>
@@ -175,7 +175,7 @@
             </div>
         </div>
         <div class="row pt-4 d-flex justify-content-evenly">
-            <div class="col-md-7">
+            <div class="col-md-7 pt-3 pt-md-0">
                 <div class="card card2 ">
                     <div class="card-body cbody">
                         <h5 class="card-title">Easy Prescription Management</h5>
@@ -187,7 +187,7 @@
 
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 pt-3 pt-md-0">
                 <div class="card card2 ">
                     <div class="card-body cbody">
                         <h5 class="card-title">Integrated Payment Solutions</h5>
@@ -205,7 +205,7 @@
 
 <!--streamline -->
 <section class="space">
-    <div class="container">
+    <div class="container space-x">
         <div class="row d-flex justify-content-center align-items-center pb-3">
             <div class="col-md-2 text-center ">
                 <a class="light-blue"><img src="assets/img/icon2.png" alt="">Product Showcase</a>
@@ -221,7 +221,7 @@
                 <p class="">Aesthetics AI simplifies every step of patient care.</p>
             </div>
         </div>
-        <div class="center-gradient py-5" style="background-image: url('assets/img/center-gradient.png');width:100%; background-size: cover;">
+        <div class="center-gradient py-1 py-md-5" style="background-image: url('assets/img/center-gradient.png');width:100%; background-size: cover;">
 
             <div class="row d-flex justify-content-center" style="position: relative;">
                 <div class="col-md-9 d-flex justify-content-evenly align-items-center">
@@ -278,9 +278,9 @@
 
                         </div>
                     </div>
-                    <div class="i1 pt-5"> <img src="assets/img/p1.png" style="max-width: 100%;" alt=""></div>
-                <div class="i2"><img src="assets/img/p2.png" style="max-width: 100%;" alt=""></div>
-                <div class="i3 pt-5"><img src="assets/img/p3.png" style="max-width: 100%;" alt=""></div>
+                    <div class="i1 p-3 pt-md-5"> <img src="assets/img/m1.png" style="max-width: 100%;" alt=""></div>
+                    <div class="i2"><img src="assets/img/m2.png" style="max-width: 100%;" alt=""></div>
+                    <div class="i3 p-3 pt-md-5"><img src="assets/img/m3.png" style="max-width: 100%;" alt=""></div>
                 </div>
             </div>
 
@@ -397,7 +397,7 @@
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center align-items-center ">
-                    <div class="col-md-2 text-center">
+                    <div class="col-md-2 col-6 text-center">
                         <a class="transparent-white" href=" ">Request a Demo</a>
                     </div>
                 </div>
@@ -414,11 +414,13 @@
 <!-- pricing -->
 <section class="space">
     <div class="container">
-        <div class="row d-flex justify-content-center align-items-center  pb-3">
-            <div class="col-md-2 text-center">
-                <a class="light-blue"><img src="assets/img/icon5.png" alt="">Our Pricing </a>
+        <div class="row d-flex justify-content-center align-items-center pb-3">
+            <div class="col-md-2 text-center  d-flex justify-content-center align-items-center  ">
+            <a class="light-blue"><img src="assets/img/icon5.png" alt="">Our Pricing </a>
+
             </div>
         </div>
+      
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-7 text-center">
                 <p class="t1 mb-1">Our Pricing Plans</p>
@@ -438,7 +440,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="row d-flex justify-content-evenly  ">
             <div class="col-md-10 d-flex justify-content-evenly align-items-center">
                 <div class="i1"> <img src="assets/img/p1.png" style="max-width: 100%;" alt=""></div>
@@ -490,16 +492,16 @@
                         <div class="row">
                             <div class="col-md-2 text-center pb-4 position-relative">
                                 <a class="download" href=" ">Download Now</a>
-                               
+
                                 <div class="logos white-btn text-end">
                                     <a href="#">
                                         <img src="assets/img/apple.png" alt="Apple" />
                                     </a>
-                                    <a href="#" >
+                                    <a href="#">
                                         <img src="assets/img/android.png" alt="Android" />
                                     </a>
                                 </div>
-                                
+
                             </div>
                         </div>
 

@@ -388,8 +388,16 @@ a:hover {
 .img1-container {
     position: relative; /* This container will be used to position .txt1 absolutely */
 }
+.imgp-container {
+    position: relative; /* This container will be used to position .txt1 absolutely */
+}
 
 .img1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.img-p img {
     display: block;
     width: 100%;
     height: auto;

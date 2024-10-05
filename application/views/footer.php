@@ -23,12 +23,12 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>FEATURES</h4>
                     <ul>
-                        <li> <a href="#"> Patient Management</a></li>
-                        <li> <a href="#">For Specialists</a></li>
-                        <li> <a href="#">Integrated Payments</a></li>
-                        <li> <a href="#">Prescription Ease</a></li>
-                        <li> <a href="#">Analytics & Reports</a></li>
-                        <li> <a href="#">Cloud Security</a></li>
+                        <li> <a href="Feature"> Patient Management</a></li>
+                        <li> <a href="Feature">For Specialists</a></li>
+                        <li> <a href="Feature">Integrated Payments</a></li>
+                        <li> <a href="Feature">Prescription Ease</a></li>
+                        <li> <a href="Feature">Analytics & Reports</a></li>
+                        <li> <a href="Feature">Cloud Security</a></li>
                     </ul>
                 </div>
 
