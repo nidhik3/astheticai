@@ -92,7 +92,7 @@
             </div>
         </div>
 
-        <div class="row pt-5 d-flex justify-content-center integrated" >
+        <div class="row space-x pt-5 d-flex justify-content-center integrated" >
             <div class="col-md-3 d-flex justify-content-center">
                 <img src="assets/img/phone1.png" alt="Phone 1" class="phone1">
                 <img src="assets/img/phone2.png" alt="Phone 2" class="phone2">
@@ -140,7 +140,7 @@
         <div class="row d-flex">
             <div class="col-md-4 mission">
                 <p class="t2">Our Mission</p>
-                <p>Our mission is to revolutionize practice management through innovation, delivering powerful tools that optimize workflows, enhance patient experiences, and improve overall practice efficiency.
+                <p class="ppara">Our mission is to revolutionize practice management through innovation, delivering powerful tools that optimize workflows, enhance patient experiences, and improve overall practice efficiency.
                 </p>
             </div>
             <div class="col-md-6"></div>
@@ -149,7 +149,7 @@
             <div class="col-md-7"></div>
             <div class="col-md-4 vision">
                 <p class="t2">Our Vision</p>
-                <p>To empower healthcare professionals with an AI-driven clinic management suite that ensures seamless patient care, strict data privacy, and supports clinics in building their brand and growing their practice.
+                <p class="ppara">To empower healthcare professionals with an AI-driven clinic management suite that ensures seamless patient care, strict data privacy, and supports clinics in building their brand and growing their practice.
                 </p>
             </div>
         </div>
@@ -171,7 +171,7 @@
                 <p class="t2">Join the growing number of professionals who <br> are transforming their practices with <br> Aesthetic AI.</p>
             </div>
         </div>
-        <div class="row d-flex justify-content-center align-items-center">
+        <div class="row d-flex justify-content-center align-items-center pt-2 pt-md-0">
             <div class="col-md-4 d-flex justify-content-evenly align-items-center ">
                 <div class="col-md-5"> <a class="black" href=" ">Let's Connect</a></div>
                 <div class="col-md-5"> <a class="gradient-border" href=" "><img src="assets/img/demo.png" alt="">Get a Demo</a></div>

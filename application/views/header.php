@@ -17,8 +17,8 @@
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
 
   <!-- -----slider------ -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
   <!-- -----slider------ -->
 
@@ -45,8 +45,8 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <style>
-    .scrollto{
-      color:black;
+    .scrollto {
+      color: black;
     }
   </style>
 </head>
@@ -58,18 +58,25 @@
     <div class="container d-flex align-items-center justify-content-between md-pl-5">
 
       <a href="Main" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid">
-        </a>
+      </a>
 
-  
+
 
 
       <nav id="navbar" class="navbar">
 
         <ul>
           <li><a class="nav-link scrollto active" href="Feature">Features</a></li>
-           <li><a class="nav-link scrollto" href="About">About</a></li>
+          <li><a class="nav-link scrollto" href="About">About</a></li>
           <li><a class="nav-link scrollto" href="Pricing">Pricing</a></li>
-      
+          <li>
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-5 d-flex justify-content-center">
+                <a class="gradientb-nav" href="Contact ">Connect with us</a>
+              </div>
+            </div>
+
+          </li>
           <!-- <li><a class="nav-link scrollto " href="">Buy template</a></li> -->
 
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -92,6 +99,7 @@
           <!-- <li><a class="nav-link scrollto blue" href="Contact">Contact</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+
       </nav><!-- .navbar -->
 
       <a class="gradientb" href="Contact ">Connect with us</a>

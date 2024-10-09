@@ -35,9 +35,9 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>Legal</h4>
                     <ul>
-                        <li> <a href="">Privacy Policy</a></li>
-                        <li> <a href="">Terms of Service</a></li>
-                        <li> <a href="">Disclaimer</a></li>
+                        <li> <a href="privacy">Privacy Policy</a></li>
+                        <li> <a href="terms">Terms of Service</a></li>
+                        <li> <a href="disclaimer">Disclaimer</a></li>
                     </ul>
                 </div>
 

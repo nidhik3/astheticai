@@ -207,8 +207,8 @@
 <section class="space">
     <div class="container space-x">
         <div class="row d-flex justify-content-center align-items-center pb-3">
-            <div class="col-md-2 text-center ">
-                <a class="light-blue"><img src="assets/img/icon2.png" alt="">Product Showcase</a>
+            <div class="col-md-4 text-center d-flex justify-content-center align-items-center   ">
+                <a class="light-blue light-blue1"><img src="assets/img/icon2.png" alt="">Product Showcase</a>
             </div>
         </div>
         <div class="row d-flex justify-content-center align-items-center ">
@@ -416,11 +416,11 @@
     <div class="container">
         <div class="row d-flex justify-content-center align-items-center pb-3">
             <div class="col-md-2 text-center  d-flex justify-content-center align-items-center  ">
-            <a class="light-blue"><img src="assets/img/icon5.png" alt="">Our Pricing </a>
+                <a class="light-blue"><img src="assets/img/icon5.png" alt="">Our Pricing </a>
 
             </div>
         </div>
-      
+
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-7 text-center">
                 <p class="t1 mb-1">Our Pricing Plans</p>
@@ -479,18 +479,18 @@
                         </div>
                         <div class="row  ">
                             <div class="col-md-5 text-left">
-                                <p class="t1 ">Download the App
+                                <p class="t1 dw ">Download the App
                                     Now.</p>
                             </div>
                         </div>
                         <div class="row ">
                             <div class="col-md-4 text-left">
-                                <p class="">Get started with Aesthetic AI today and experience the future
+                                <p class="pg">Get started with Aesthetic AI today and experience the future
                                     of patient care.</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-2 text-center pb-4 position-relative">
+                            <div class="col-md-2 col-8 text-center pb-4 position-relative">
                                 <a class="download" href=" ">Download Now</a>
 
                                 <div class="logos white-btn text-end">

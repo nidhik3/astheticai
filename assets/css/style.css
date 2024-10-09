@@ -262,8 +262,11 @@ a:hover {
     padding: 5px 15px;
     font-size: 13px;
     border-radius: 20px;
-	width: 188px;
+	width: 159px;
   
+}
+.light-blue1{
+	width: 169px  !important ;
 }
 .join-us{
     height: 7vh;
@@ -314,6 +317,10 @@ a:hover {
     padding: 5px 15px;
     font-size: 13px;
     border-radius: 20px;
+}
+
+.gradientb-nav {
+   display: none !important;
 }
 
 .animated-random-gradient {
@@ -769,7 +776,7 @@ border-top-left-radius: 12px;
 }
 
 .mobile-nav-toggle.bi-x {
-	color: #fff;
+	color: black;
 }
 
 @media (max-width: 991px) {
@@ -787,14 +794,15 @@ border-top-left-radius: 12px;
 	overflow: hidden;
 	top: 0;
 	right: 0;
-	left: 0;
+	/* left: 0; */
 	bottom: 0;
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.6);
 	backdrop-filter: blur(10px); /* Blur effect */
     -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
 	transition: 0.3s;
 	z-index: 999;
 	height: 100vh;
+    width: 60%;
 }
 
 .navbar-mobile .mobile-nav-toggle {

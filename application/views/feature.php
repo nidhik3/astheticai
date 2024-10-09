@@ -22,8 +22,8 @@
             </div>
         </div>
 
-        <div class="row d-flex justify-content-evenly pt-3">
-            <div class="col-md-2">
+        <div class="row space-x d-flex justify-content-evenly pt-3">
+            <div class="col-md-3 d-flex  justify-content-center">
                 <div class="card  card1">
                     <img class="card-img-top" src="assets/img/f1.png" alt="Card image cap">
                     <div class="card-bodys">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3 d-flex justify-content-center pt-3 pt-md-0">
                 <div class="card  card1" >
                     <img class="card-img-top" src="assets/img/f2.png" alt="Card image cap">
                     <div class="card-bodys">
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3 d-flex justify-content-center  pt-3 pt-md-0">
                 <div class="card  card1" >
                     <img class="card-img-top" src="assets/img/f3.png" alt="Card image cap">
                     <div class="card-bodys">
